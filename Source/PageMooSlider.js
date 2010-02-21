@@ -5,8 +5,6 @@ description: PageMooSlider class v1.0
   - based on Paginator 3000 and jQuery paginator plugin v 1.0.1 
   - coded by CleverScript.ru special for free use
 
-license: GPL
-
 authors:
 - Lexx
 - cleverscript
@@ -14,7 +12,10 @@ authors:
 requires:
  core/1.2.4:   '*'
 
-provides:[PageMooSlider]
+provides:
+ -PageMooSlider
+ 
+license: GPL
 ...
 */
 
