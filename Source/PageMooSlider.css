@@ -1,0 +1,28 @@
+/******************************************************
+	PageMooSlider 
+******************************************************/
+.pagemooslider {background:url('main-body.png') no-repeat;}
+.pagemooslider .scroll_knob {background:url('slider_knob.gif') no-repeat center center;}
+
+.pagemooslider {font-size:1em; height:80px; width:600px; padding:15px 0 0;}
+.pagemooslider table {border-collapse:collapse;	table-layout:fixed;	width:100%;}
+.pagemooslider table td {padding:0;	white-space:nowrap;	text-align:center; font-size:14px; border:0;}
+.pagemooslider .left {text-align:right; width:17%;}
+.pagemooslider .right {text-align:left; width:17%;}
+.pagemooslider .top, .pagemooslider .top a {color:#006baf;}
+.pagemooslider .bottom, .pagemooslider .bottom a {color:#004a79; font-size:12px;}
+.pagemooslider .spaser {width:30px;}
+.pagemooslider span {display:block;	padding:3px 0; color:#fff;}
+.pagemooslider span strong, .pagemooslider span a {padding:2px 6px;}
+.pagemooslider span a {color:#636363;}
+.pagemooslider .left a:hover, .pagemooslider .right a:hover {text-decoration:underline;}
+.pagemooslider span strong {background:#2b90d0;	font-style:normal; font-weight:normal;}
+.pagemooslider .scroll_bar {width:100%;	height:20px; position:relative;	margin:10px 0 0 0;}
+.pagemooslider .scroll_trough {width:100%; height:3px; background:#ccc; overflow:hidden;}
+.pagemooslider .scroll_thumb {position:absolute; z-index:2;	width:0; height:3px; 
+    top:0; left:0; font-size:1px; background:#363636;}
+.pagemooslider .scroll_knob {position:absolute;	top:-5px; left:50%;	margin:0 0 0 -10px;
+    width:20px; height:20px; overflow:hidden; cursor:pointer;}
+.pagemooslider .current_page_mark {position:absolute; z-index:1; top:0; left:0;	
+    width:0; height:3px; overflow:hidden; background:#55a6d9;}
+.fullsize .scroll_thumb {display:none;}
