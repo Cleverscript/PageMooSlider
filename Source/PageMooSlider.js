@@ -12,13 +12,14 @@ authors:
 requires:
  core/1.2.4:   '*'
 
-provides: PageMooSlider
+provides: 
+ -PageMooSlider
  
 license: GPL
 ...
 */
 
-PageMooSlider = new Class({
+var PageMooSlider = new Class({
 	Implements: [Options],
 	options: {
 	    container   : null,
