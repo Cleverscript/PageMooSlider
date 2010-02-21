@@ -17,6 +17,8 @@ requires:
 - externalPackage1/tag: component4
 - externalPackage2/tag: [component1, component2]
 
+provides: mootools-1.2.4-core-yc.js
+...
 */
 
 PageMooSlider = new Class({
