@@ -1,6 +1,6 @@
 ﻿/*
 ---
-description: PageMooSlider class v1.0
+description: PageMooSlider
   - page slider
   - based on Paginator 3000 and jQuery paginator plugin v 1.0.1 
   - coded by CleverScript.ru special for free use
@@ -10,10 +10,10 @@ authors:
 - cleverscript
 
 requires:
- core/1.2.4:   '*'
+core/1.2.4:   '*'
 
 provides: 
- -PageMooSlider
+- PageMooSlider
  
 license: GPL
 ...
