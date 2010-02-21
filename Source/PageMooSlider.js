@@ -1,6 +1,6 @@
 ﻿/*
 ---
-description: Mootools PageMooSlider class v1.0
+description: PageMooSlider class v1.0
   - page slider
   - based on Paginator 3000 and jQuery paginator plugin v 1.0.1 
   - coded by CleverScript.ru special for free use
@@ -12,12 +12,10 @@ authors:
 - cleverscript
 
 requires:
-- localComponent1
-- [localComponent2, localComponent3]
-- externalPackage1/tag: component4
-- externalPackage2/tag: [component1, component2]
+ core/1.2.4:   '*'
 
-provides: mootools-1.2.4-core-yc.js
+provides:
+ - PageMooSlider
 ...
 */
 
