@@ -17,8 +17,6 @@ requires:
 - externalPackage1/tag: component4
 - externalPackage2/tag: [component1, component2]
 
-provides: [Element, Elements, $, $$]
-...
 */
 
 PageMooSlider = new Class({
