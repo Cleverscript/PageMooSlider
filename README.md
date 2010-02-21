@@ -33,7 +33,7 @@ window.addEvent('domready', function() {
 				pagesSpan: 10,
 				pageCurrent: page,
 				returnOrder: true,
-				baseUrl: function(page) { alert('Выбранна страница '+page) }
+				baseUrl: function(page) { alert('Your selected '+page) }
 		    });
 		    
 		    new PageMooSlider({
