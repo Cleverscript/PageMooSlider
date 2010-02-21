@@ -1,5 +1,7 @@
 ﻿/*
 ---
+script: PageMooSlider.js
+
 description: PageMooSlider
   - page slider
   - based on Paginator 3000 and jQuery paginator plugin v 1.0.1 
@@ -12,8 +14,7 @@ authors:
 requires:
 core/1.2.4:   '*'
 
-provides: 
-- PageMooSlider
+provides: [PageMooSlider]
  
 license: GPL
 ...
