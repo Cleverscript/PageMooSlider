@@ -14,7 +14,7 @@ authors:
 requires:
  core/1.2.4:   '*'
 
-provides:[Element.PageMooSlider]
+provides:[PageMooSlider]
 ...
 */
 
