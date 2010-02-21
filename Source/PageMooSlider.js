@@ -1,34 +1,24 @@
 ﻿/*
-  Mootools PageMooSlider class v1.0
+---
+description: Mootools PageMooSlider class v1.0
   - page slider
   - based on Paginator 3000 and jQuery paginator plugin v 1.0.1 
   - coded by CleverScript.ru special for free use
-  
-  Example:
-    window.addEvent('domready', function() {			
-			new PageMooSlider({
-			    container   : container_element,    //container for slider
-			    pagesTotal  : 100,                  //all pages count
-				pagesSpan   : 10,                   //display pages count
-				pageCurrent : 5,                    //current page number
-				returnOrder : false,                //if true display return order pages 
-				                                    //false display normal order pages
-				baseUrl     : '/articles/%page%/',  //may be link "http://www.youwebsite.ru/index.php?page=" 
-				                                    //or "http://www.youwebsite.ru/index.php?page=%page%&limit=1"
-	                                                //or function 
-								                    //function (page_number){
-								  	                //    alert('Выбранна страница '+page_number);
-								                    //}
-				lang        : {
-                    next         : "Следующая",                  //language next
-                    last         : "Последняя",                  //language last
-                    prior        : "Предыдущая",                 //language prior
-                    first        : "Первая",                     //language first
-                    arrowRight   : String.fromCharCode(8594),    //language left arrow 
-                    arrowLeft    : String.fromCharCode(8592)     //language right arrow
-                }                    
-		    });
-		});
+
+license: GPL
+
+authors:
+- Lexx
+- cleverscript
+
+requires:
+- localComponent1
+- [localComponent2, localComponent3]
+- externalPackage1/tag: component4
+- externalPackage2/tag: [component1, component2]
+
+provides: [Element, Elements, $, $$]
+...
 */
 
 PageMooSlider = new Class({
