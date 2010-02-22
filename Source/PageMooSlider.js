@@ -14,7 +14,7 @@ authors:
 requires:
 core/1.2.4:   '*'
 
-provides: [PageMooSlider]
+provides: [PageMooSlider, prepareHtml, makePagesTableHtml, initScrollThumb, setScrollThumbWidth, moveScrollThumb, initPageCurrentMark, setPageCurrentPointWidth, setPageCurrentPointWidth, movePageCurrentPoint, initEvents, drawPages, drawReturn, enableSelection, disableSelection]
  
 license: GPL
 ...
