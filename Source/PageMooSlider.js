@@ -16,7 +16,8 @@ core/1.2.4:   '*'
 
 license: GPL
 
-provides: [hz]
+provides: 
+-hz
  
 ...
 */
