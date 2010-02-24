@@ -17,11 +17,9 @@ core/1.2.4:   '*'
 license: GPL
 
 provides: 
--hz
- 
+ -PageMooSlider
 ...
 */
-var hz = "hzzzzz";
 var PageMooSlider = new Class({
 	Implements: [Options],
 	options: {
