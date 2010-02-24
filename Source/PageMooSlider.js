@@ -15,7 +15,7 @@ requires:
 core/1.2.4:   '*'
 
 provides: 
- - PageMooSlider
+PageMooSlider
  
 license: GPL
 ...
