@@ -16,8 +16,7 @@ core/1.2.4:   '*'
 
 license: GPL
 
-provides: 
-PageMooSlider
+provides: [PageMooSlider]
  
 ...
 */
