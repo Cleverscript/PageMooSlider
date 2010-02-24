@@ -17,6 +17,7 @@ license: GPL
 
 provides: 
 PageMooSlider
+
 */
 
 var PageMooSlider = new Class({
