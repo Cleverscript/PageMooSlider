@@ -1,5 +1,4 @@
 ﻿/*
----
 script: PageMooSlider.js
 
 description: PageMooSlider
@@ -18,7 +17,6 @@ license: GPL
 
 provides: 
 PageMooSlider
-...
 */
 
 var PageMooSlider = new Class({
